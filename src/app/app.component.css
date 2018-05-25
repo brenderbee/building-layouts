@@ -31,6 +31,10 @@
   padding: 0 20px;
 }
 
+.navbar-header .hamburger {
+  /* display: none; */
+}
+
 .nav-header .social {
   display: flex;
   justify-content: flex-start;
@@ -287,3 +291,53 @@
   padding-bottom: 17px;
   padding-right: 20px;
 }
+
+@media (max-width: 568px) {
+  .nav-header {
+    border-bottom: 1px solid #f6f6f6;
+  }
+  .nav-header .social,
+  .nav-header .left .search p,
+  .nav-header .left .currency,
+  .nav-header .left .signup,
+  .nav-menu,
+  .sidebar,
+  .market .market-header {
+    display: none;
+  }
+
+  .navbar-header .hamburger svg{
+    fill: #3f3f3f;
+    height: 15px;
+  }
+
+  .shop {
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-auto-rows: minmax(300px, 1fr); */
+    grid-gap: 20px;
+  }
+
+}
+
+/* @media (min-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas:
+      "header header  header"
+      "nav    content sidebar"
+      "nav    content ad"
+      "footer footer  footer";
+   }
+   nav ul {
+     flex-direction: column;
+   }
+} */
