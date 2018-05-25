@@ -96,7 +96,7 @@
   display: flex;
   font-size: 10px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 22px;
 }
 
@@ -117,11 +117,13 @@
   margin: 0 70px;
 }
 
+/* Shopping categories banner */
 .shop {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   overflow: hidden;
+  padding-bottom: 50px;
   width: 100%;
 }
 
@@ -132,4 +134,53 @@
 .shop .category img {
   width: 100%;
   height: auto;
+}
+
+/* Main content */
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+  height: 500px;
+}
+
+.market {
+  border: 1px solid black;
+}
+
+.market .market-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.market-header .left {
+  display: flex;
+  align-items: flex-end;
+}
+
+.market-header .left h1 {
+  color: #535353;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.market-header .left p {
+  color: #757575;
+  font-size: 8px;
+}
+
+.market-header .right {
+  display: flex;
+}
+
+.market-header .right svg {
+  fill: #757575;
+  height: 27px;
+}
+
+.market-header .right svg:last-child {
+  fill: #3f3f3f;
+  height: 27px;
 }
