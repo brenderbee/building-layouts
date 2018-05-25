@@ -15,6 +15,12 @@ _View deployed site: https://stash-clone.firebaseapp.com/_
 
 _This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5._
 
+## Screenshots
+
+Before:
+<img src="https://github.com/brenderbee/building-layouts/blob/master/src/assets/readme-img/mobile-og.png?raw=true" width="200" />
+<img src="https://github.com/brenderbee/building-layouts/blob/master/src/assets/readme-img/desktop-og.png?raw=true" width="400" />
+
 ## Setup/Installation Requirements
 
 * Clone repository on your local computer.
