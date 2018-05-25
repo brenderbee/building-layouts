@@ -22,6 +22,8 @@ Original: <br>
 <img src="https://github.com/brenderbee/building-layouts/blob/master/src/assets/readme-img/desktop-og.png?raw=true" width="400" />
 
 Clone: <br>
+<img src="https://github.com/brenderbee/building-layouts/blob/master/src/assets/readme-img/mobile-clone.png?raw=true" width="200" /> <br>
+<img src="https://github.com/brenderbee/building-layouts/blob/master/src/assets/readme-img/desktop-clone.png?raw=true" width="400" />
 
 ## Setup/Installation Requirements
 
