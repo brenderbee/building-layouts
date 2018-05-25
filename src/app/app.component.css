@@ -210,6 +210,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-transform: capitalize;
 }
 
 .card .info h2 {
@@ -221,4 +222,31 @@
 .card .info p {
   color: #535353;
   font-size: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+
+}
+
+.sidebar .browse .header {
+  color: #777779;
+  display: flex;
+  align-items: flex-end;
+  height: 60px;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.sidebar .browse p {
+  color: #3f3f3f;
+  margin: 20px 0;
+}
+
+.sidebar .browse p:nth-child(2) {
+  color: #d52975;
+}
+
+.sidebar .browse .options p {
+  color: #3f3f3f;
+  margin: 20px 10px;
 }
