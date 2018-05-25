@@ -190,7 +190,8 @@
 }
 
 .market-header .right select {
-  background-color: none;
+  background: none;
+  color: #3f3f3f;
   height: 40px;
   margin-right: 20px;
   width: 200px;
