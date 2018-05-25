@@ -293,9 +293,6 @@
 }
 
 @media (max-width: 568px) {
-  .nav-header {
-    border-bottom: 1px solid #f6f6f6;
-  }
   .nav-header .social,
   .nav-header .left .search p,
   .nav-header .left .currency,
@@ -304,6 +301,10 @@
   .sidebar,
   .market .market-header {
     display: none;
+  }
+
+  .nav-header {
+    border-bottom: 1px solid #f6f6f6;
   }
 
   .navbar-header .hamburger svg{
@@ -317,6 +318,13 @@
     overflow: hidden;
     padding-bottom: 50px;
     width: 100%;
+  }
+
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    height: auto;
   }
 
   .grid {
