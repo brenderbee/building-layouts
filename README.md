@@ -17,9 +17,11 @@ _This project was generated with [Angular CLI](https://github.com/angular/angula
 
 ## Screenshots
 
-Before:
+Original: <br>
 <img src="https://github.com/brenderbee/building-layouts/blob/master/src/assets/readme-img/mobile-og.png?raw=true" width="200" />
 <img src="https://github.com/brenderbee/building-layouts/blob/master/src/assets/readme-img/desktop-og.png?raw=true" width="400" />
+
+Clone: <br>
 
 ## Setup/Installation Requirements
 
