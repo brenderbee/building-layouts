@@ -1,4 +1,94 @@
-.wrapper {
-  max-width: 1441px;
-  margin: 0 auto;
+* {
+  /* border: 1px solid black; */
+}
+.top-banner {
+  background-color: #d2e3d7;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  text-transform: capitalize;
+}
+
+.nav-header {
+  align-items: center;
+  color: #757575;
+  display: flex;
+  flex: 1;
+  height: 86px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.nav-header .social {
+  display: flex;
+  justify-content: flex-start;
+  width: 33%;
+}
+
+.nav-header .social p {
+  border-right: 1px solid #757575;
+  line-height: 12px;
+  padding: 0 12px;
+}
+
+.nav-header .social p:last-child {
+  border-right: none;
+}
+
+.nav-header .logo {
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  width: 33%;
+}
+
+.nav-header .logo svg {
+  height: 100%;
+}
+
+.nav-header .left{
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 33%;
+}
+
+.nav-header .left div {
+  padding: 0 12px;
+}
+
+.nav-header .left div:last-child {
+  padding-right: 0;
+}
+
+.nav-header .search {
+  display: flex;
+}
+
+.nav-header .search svg {
+  fill: #757575;
+  height: 15px;
+  padding-right: 5px;
+}
+
+.nav-header .basket svg {
+  color: #3f3f3f;
+  fill: #757575;
+  height: 22px;
+}
+
+.nav-menu {
+  background-color: lightblue;
+  color: #3f3f3f;
+  height: 22px;
 }
