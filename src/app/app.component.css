@@ -369,3 +369,10 @@
     height: 15px;
   }
 }
+
+@media (min-width: 1400px) {
+  .wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
