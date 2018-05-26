@@ -342,6 +342,9 @@
     grid-auto-rows: minmax(220px, 1fr);
     grid-gap: 20px;
   }
+  .wrapper {
+    margin: 0 7.5%;
+  }
 }
 
 @media (max-width: 1000px) {
