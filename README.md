@@ -15,6 +15,8 @@ _View deployed site: https://freepeople-clone.firebaseapp.com/_
 
 _This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5._
 
+_This site uses icons from [Font Awesome](https://fontawesome.com/license)._
+
 ## Screenshots
 
 Original: <br>
